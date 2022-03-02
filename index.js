@@ -34,8 +34,6 @@ client.on('ready', async () => {
     //         }
     //     ]
     // })
-
-    // console.log(await (await client.application.commands.fetch()).first().options)
 });
 
 client.on('interactionCreate', (interaction) => {
@@ -51,14 +49,10 @@ client.on('interactionCreate', (interaction) => {
                     filteredOptions = Object.keys(faq).filter(key => key.toLowerCase().startsWith(value.toLowerCase()))
                 }
 
-                console.log(filteredOptions)
-
                 // Trim to 25 items
                 if (filteredOptions.length > 25) {
                     filteredOptions = filteredOptions.slice(0, 25);
                 }
-
-                console.log(filteredOptions)
 
                 interaction.respond(filteredOptions.map(option => ({ name: option, value: option })));
         }
