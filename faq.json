@@ -1,0 +1,11 @@
+{
+    "colors": {
+        "title": "How do I change colors?",
+        "message": "To make a color, put a color code with `§` in front of it.\n\nExample: `§cHello world!`\n\nUse `§r` to remove the color.\n\nExample: `§cHello §rworld!`",
+        "image": "https://akamsremoteconnect.org/wp-content/uploads/2021/03/Minecraft-Color-Codes-1.jpg"
+    },
+    "multiline": {
+        "title": "How do I add multiple lines?",
+        "message": "To make a multiline message in the config, put a `|` at the start, and then put each line on a new line. \n\nExample: \n```yaml\ncontent: |\n  Hello world!\n  This is a multiline message!\n```"
+    }
+}
