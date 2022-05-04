@@ -11,5 +11,9 @@
     "proxy": {
         "title": "How do I use FloodgateCP with a proxy?",
         "message": "To use FloodgateCP with a proxy (ie BungeeCord, Velocity, etc), do the following:\n\nOn ALL backend servers (Spigot, Paper, etc):\n• Install Floodgate\n• Use the same `key.pem` file as the proxy (same betweem backend servers too)\n• Set `bungeecord` to `true` in your `spigot.yml`\n\nOn the proxy:\n• Install Floodgate\n• Install Geyser\n• Enable `ip_forward` in your BungeeCord `config.yml` (if you're using a BungeeCord proxy)\n• Set `send-floodgate-data` to `true` in your Floodgate `config.yml`\n\nOn all servers with CommandPanels:\n• Install FloodgateCP"
+    },
+    "open": {
+        "title": "How do I open a panel?",
+        "message": "Panels are opened the same way as in CommandPanels. One way would be to use `/cp <panel name>`."
     }
 }
